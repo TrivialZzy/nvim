@@ -24,8 +24,6 @@ vim.keymap.set('', '<leader><cr>', '<cmd>nohlsearch<cr>', {remap = true})
 vim.keymap.set('v', 'y', '"+y')
 -- 全选且复制
 vim.keymap.set('n', 'Y', 'ggVG"+y')
--- 跳转至最上方输入
-vim.keymap.set('n', '<leader>k', 'ggO<ESC>O')
 -- 缩进设置
 vim.keymap.set('n', '>', '>>', {remap = true})
 vim.keymap.set('n', '<', '<<', {remap = true})
