@@ -25,6 +25,8 @@ vim.keymap.set('v', 'y', '"+y')
 -- 全选且复制
 vim.keymap.set('n', 'Y', 'ggVG"+y')
 -- 缩进设置
+vim.keymap.set('x', '>', '>gv', {remap = true})
+vim.keymap.set('x', '<', '<gv', {remap = true})
 vim.keymap.set('n', '>', '>>', {remap = true})
 vim.keymap.set('n', '<', '<<', {remap = true})
 -- 保存
