@@ -4,7 +4,7 @@
 -- Leader 键
 vim.g.mapleader = " "
 -- 宏命令瞬间完成
-vim.o.lazyredraw = true
+vim.o.lazyredraw = false
 
 --------------
 ---- 键位 ----
