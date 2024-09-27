@@ -35,6 +35,3 @@ vim.keymap.set('', 'S', '<cmd>w<cr>')
 vim.keymap.set('', 'Q', '<cmd>q<cr>')
 -- 禁用 s 键
 vim.keymap.set('', 's', '<Nop>', {remap = true})
--- 上下移动选中的文字
-vim.keymap.set("v", "J", ":move '>+1<CR>gv-gv", opt)
-vim.keymap.set("v", "K", ":move '<-2<CR>gv-gv", opt)
