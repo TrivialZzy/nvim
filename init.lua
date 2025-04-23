@@ -4,7 +4,7 @@ require("General")
 -- VSCode and Neovim
 if vim.g.vscode then
     -- VSCode extension
-    require("VSCode")
+    require("VSCode_Neovim")
 else
     -- ordinary Neovim
     require("Neovim")
