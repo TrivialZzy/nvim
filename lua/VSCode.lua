@@ -1,0 +1,5 @@
+--------------
+---- 键位 ----
+--------------
+-- 行注释
+-- vim.keymap.set('v', '<C-/>', "<cmd>call VSCodeNotifyVisual('noop', 1)<cr><Esc><cmd>call VSCodeNotify('editor.action.commentLine')<cr>", {remap = true})
